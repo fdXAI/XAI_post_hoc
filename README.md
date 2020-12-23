@@ -1,6 +1,6 @@
 # XAI_post_hoc
-* 基于可视化: 
-LIME  
+* 基于可视化:  
+LIME/Anchor  
 LRP   
 GRAD-CAM  
 IG  
