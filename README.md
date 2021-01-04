@@ -1,4 +1,4 @@
-# XAI_post_hoc
+# XAI_exp
 * 基于可视化:  
 LIME/Anchor  
 LRP   
