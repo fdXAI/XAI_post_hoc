@@ -16,7 +16,7 @@ Optimal-Transportation
 
 # 编程练习21: 空洞卷积
 
-作者：author1@mail.com, author2@mail.com, author3@mail.com  (尽量提供 Github 账号对应的邮箱)
+作者：jasonxulishen@hotmail.com, 2676330757@qq.com, jamie98@vip.qq.com 
 
 ## 知识点介绍
 
