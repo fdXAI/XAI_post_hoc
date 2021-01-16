@@ -43,7 +43,7 @@ Optimal-Transportation
 
 ## 任务描述
 
-利用torch与TensorFlow上练习空洞卷积。
+分别用Torch与TensorFlow完成空洞卷积的Fashion-MNIST分类。
 
 ## 数据集
 
