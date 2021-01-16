@@ -25,17 +25,17 @@ Optimal-Transportation
 2、感受野：
 感受野是一个神经元对原始图像的感受区域的大小。空洞卷积是通过对卷积核相邻元素之间插入D-1个空洞来变相地增加其大小，其中D为膨胀率。将三层的卷积神经网络简化为一维结构，每一层卷积核的大小为3，步长为1，那么最上层特征所对应的感受野就为如图所示：
 
-![](Picture1.png)
+![](imgs/Picture1.png)
 
 3、感受野的计算方式：
 
 
 * 卷积核与感受野的计算如下：
-![](https://latex.codecogs.com/gif.latex?k%27%20%3D%20k&plus;%28k-1%29x%28d-1%29)
+![]()
 
 
 * 当前层的感受野计算公式如下：
-![](https://latex.codecogs.com/gif.latex?RF_%7Bi&plus;1%7D%3DRF_%7Bi%7D&plus;%28k%27-1%29x%20S_i)
+![](imgs/formula1.png)
 
 其中 ![](https://latex.codecogs.com/gif.latex?%5Cmathcal%7BW%7D%28A%2Cf%29%20%3D%20%28T%2C%5Cbar%7Bf%7D%29)，〖RF〗_i表示上一层的感受野，k^’表示卷积核的大小，S^’表示之前所有层的步长的乘积，但不包括本层，公式如下：
 
