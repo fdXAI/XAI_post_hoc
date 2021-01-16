@@ -48,7 +48,7 @@ Optimal-Transportation
 
 样例使用的数据集为Fashion-MNIST。它是一个类似MNIST的图片数据集，为服装的分类。Fashion-MNIST与MNIST一样分为10类，每张图片的大小为28*28像素，其中包含训练集50000张，测试集10000张样本图片。
 
-根据http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/# 的benchmark，在Fashion-MNIST用传统方法(不使用深度学习)的准确率不到90%。
+根据benchmark http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/# ，在Fashion-MNIST用传统方法(不使用深度学习)的准确率不到90%。
 
 ## 题目要求
 
