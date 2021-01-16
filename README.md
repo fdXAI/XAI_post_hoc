@@ -30,15 +30,15 @@ Optimal-Transportation
 3、感受野的计算方式：
 
 
-* 卷积核与感受野的计算如下：
+卷积核与感受野的计算如下：
 <img src="imgs/formular1.jpg" width=200>
 
-* 当前层的感受野计算公式如下：
+当前层的感受野计算公式如下：
 <img src="imgs/formular2.jpg" width=200>
 
 其中，*RF<sub>i+1</sub>* 表示当前层的感受野， *RF<sub>i</sub>* 表示上一层的感受野，*k'* 表示卷积核的大小，*S'* 表示之前所有层的步长的乘积，但不包括本层，公式如下：
 
-<img src="imgs/formula3.jpg" width=200>
+<img src="imgs/formula3.jpg" width=100>
 
 ## 任务描述
 
