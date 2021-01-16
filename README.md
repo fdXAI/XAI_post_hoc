@@ -31,15 +31,14 @@ Optimal-Transportation
 
 
 * 卷积核与感受野的计算如下：
-![]()
-
+<img src="imgs/formular1.jpg" width=200>
 
 * 当前层的感受野计算公式如下：
-![](imgs/formula1.png)
+<img src="imgs/formular2.jpg" width=200>
 
-其中 ![](https://latex.codecogs.com/gif.latex?%5Cmathcal%7BW%7D%28A%2Cf%29%20%3D%20%28T%2C%5Cbar%7Bf%7D%29)，〖RF〗_i表示上一层的感受野，k^’表示卷积核的大小，S^’表示之前所有层的步长的乘积，但不包括本层，公式如下：
+其中，*RF<sub>i+1</sub>* 表示当前层的感受野， *RF<sub>i</sub>* 表示上一层的感受野，*k'* 表示卷积核的大小，*S'* 表示之前所有层的步长的乘积，但不包括本层，公式如下：
 
-![](https://latex.codecogs.com/gif.latex?RF_%7Bi&plus;1%7D%3DRF_%7Bi%7D&plus;%28k%27-1%29x%20S_i)
+<img src="imgs/formula3.jpg" width=200>
 
 ## 任务描述
 
